@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display property</title>
+
+  <style>
+    #div-1 {
+      display: none;
+      background-color: red;
+    }
+
+    #span-1 {
+      background-color: cyan;
+      display: inline;
+      height: 100px;
+      width: 100px;
+    }
+
+    #span-2 {
+      background-color: purple;
+    }
+
+    #div-2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%);
+      background-color: green;
+    }
+
+    #img {
+      display: inline-block;
+      width: 250px;
+      height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>before our first div</div>
+  <div id="div-1">This is a div</div>
+  <span id="span-1">This is a span</span>
+  <img id="img"
+    src="https://static01.nyt.com/images/2021/05/25/multimedia/25xp-johncena/25xp-johncena-mobileMasterAt3x.jpg" />
+  <span id="span-2">This is another span</span>
+  <div id="div-2">This is another div</div>
+
+</body>
+
+</html>
