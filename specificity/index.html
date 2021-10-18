@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    /* 0,1,1 */
+    h1.header {
+      color: red;
+    }
+
+    /* 1,0,0 */
+    #header-id {
+      /* color: yellow; */
+    }
+
+    /* 0,0,1 */
+    h1 {
+      color: blue;
+    }
+
+    .text {
+      color: green;
+    }
+
+    /* 
+      1st - Ids #id
+      2nd - Classes .class
+      3rd - Tags <div> ...
+    */
+
+    #parent {
+      color: green;
+    }
+
+    p {
+      color: purple;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="header-id" class="header">Something</h1>
+  <h1 id="header-id" class="header">Something</h1>
+  <div id="header-id" class="header">Something</div>
+  <h1 id="header-id" class="header">Something</h1>
+  <p class="text">sodamosdmomasddsoamdsa</p>
+
+  <div id="parent">
+    <p>Inheritance</p>
+  </div>
+
+</body>
+
+</html>
